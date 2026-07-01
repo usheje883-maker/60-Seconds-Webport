@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "973054532451",
+    "firebase_url": "https://seconds-975bb.firebaseio.com",
+    "project_id": "seconds-975bb",
+    "storage_bucket": "seconds-975bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973054532451:android:3d759989f1fd3389",
+        "android_client_info": {
+          "package_name": "com.robotgentleman.p60seconds.pc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973054532451-vas8c00h3426cgac0ell0tsav0hcgfef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWVzmhjHd9vaTTULOInMvaUPlbYywVYxw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
