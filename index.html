@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>60 Seconds - Web</title>
-    <link rel="shortcut icon" href="/Image.png">
-    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/usheje883-maker/60-Seconds-Webport@main/Image.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/usheje883-maker/60-Seconds-Webport@main/TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -43,7 +43,8 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build";
+      var baseUrl = "https://cdn.jsdelivr.net/gh/usheje883-maker/60-Seconds-Webport@main/";
+      var buildUrl = baseUrl + "Build";
       var loaderUrl = buildUrl + "/Build.loader.js";
       loadingBar.style.display = "block";
 
@@ -62,7 +63,7 @@
           dataUrl: dataBlob,
           frameworkUrl: buildUrl + "/Build.framework.js.unityweb",
           codeUrl: buildUrl + "/Build.wasm.unityweb",
-          streamingAssetsUrl: "StreamingAssets",
+          streamingAssetsUrl: baseUrl + "StreamingAssets",
           companyName: "Robot Gentleman",
           productName: "60 Seconds",
           productVersion: "1.0",
